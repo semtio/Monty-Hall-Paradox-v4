@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="monty-hall">
+        <input placeholder="ВВЕДИТЕ ЧИСЛО" type="number" step="1000" min="0" value="0" max="10000" id="inpMontHall">
+        <button id="manualBtn">РУЧНОЙ РЕЖИМ</button>
+
+        <button class="auto-btn">АВТО РЕЖИМ</button>
+        <div class="change-or-not">
+            <button class="change-or-not-button">МЕНЯТЬ</button>
+            <button class="change-or-not-button">НЕ МЕНЯТЬ</button>
+        </div>
+
+        <div class="game-points">
+            <span id="win">0</span>
+            /
+            <span id="lose">0</span>
+        </div>
+
+        <div class="doors-block">
+            <div class="door" id="door1"></div>
+            <div class="door" id="door2"></div>
+            <div class="door" id="door3"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

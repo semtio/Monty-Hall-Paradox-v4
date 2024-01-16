@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.monty-hall button,
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25%;
+    height: 30px;
+    text-align: center;
+}
+
+.monty-hall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 99.9vh;
+
+    border: solid red;
+
+}
+
+.change-or-not {
+    display: flex;
+    width: 25%;
+    height: 30px;
+
+}
+
+.change-or-not button {
+    width: 100%;
+}
+
+.doors-block {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+    font-size: 3em;
+    /* color: #a1a1a1; */
+
+    width: 25%;
+    height: 200px;
+}
+
+.door {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32%;
+    height: auto;
+    background-color: #a1a1a1;
+}
+
+.game-points {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+#win {
+    color: green;
+}
+
+#lose {
+    color: tomato;
+}
+
+/* кросплатформенность */
+@media (max-width: 1025px) {}
+
+@media (max-width: 769px) {}
+
+@media (max-width: 426px) {}
